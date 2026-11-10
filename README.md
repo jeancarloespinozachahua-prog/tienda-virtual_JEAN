@@ -16,6 +16,17 @@ npm run dev
 
 Abre http://localhost:3000 en tu navegador.
 
+## Publicar en GitHub Pages
+
+El repositorio genera una versión HTML estática y la publica automáticamente en GitHub Pages cada vez que se actualiza la rama `main`.
+
+1. En GitHub, abre **Settings → Pages** del repositorio.
+2. En **Build and deployment → Source**, selecciona **GitHub Actions**.
+3. Sube los cambios a `main`; la acción **Publicar JEAN Store en GitHub Pages** construirá y publicará el sitio.
+4. Cuando la acción termine correctamente, el sitio estará en https://jeancarloespinozachahua-prog.github.io/tienda-virtual_JEAN/.
+
+El carrito funciona en el navegador; el pago y las suscripciones siguen siendo demostrativos.
+
 ## Comprobaciones
 
 ```bash
